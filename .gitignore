@@ -1,0 +1,85 @@
+# ───────────────────────────────
+# Dependencies
+# ───────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ───────────────────────────────
+# Expo
+# ───────────────────────────────
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# ───────────────────────────────
+# Native builds
+# ───────────────────────────────
+# If you use Expo prebuild / CNG (native dirs are generated), keep these ignored.
+# If you've hand-edited native code, DELETE the next two lines so they're tracked.
+/ios
+/android
+
+# Native artifacts that should never be committed either way
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.keystore
+
+# ───────────────────────────────
+# Metro
+# ───────────────────────────────
+.metro-health-check*
+metro.config.js.bak
+
+# ───────────────────────────────
+# Environment / secrets
+# ───────────────────────────────
+.env
+.env.*
+!.env.example
+google-services.json
+GoogleService-Info.plist
+
+# ───────────────────────────────
+# EAS / Expo Application Services
+# ───────────────────────────────
+*.ipa
+*.apk
+*.aab
+
+# ───────────────────────────────
+# Logs & debug
+# ───────────────────────────────
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# ───────────────────────────────
+# TypeScript
+# ───────────────────────────────
+*.tsbuildinfo
+
+# ───────────────────────────────
+# Testing / coverage
+# ───────────────────────────────
+coverage/
+
+# ───────────────────────────────
+# OS files
+# ───────────────────────────────
+.DS_Store
+*.pem
+Thumbs.db
+
+# ───────────────────────────────
+# Editors / IDEs
+# ───────────────────────────────
+.vscode/
+.idea/
+*.swp
