@@ -88,15 +88,9 @@ npm install
 
 ### 2. Configure the API URL
 
-Point the app at your backend. Set it in `src/config/constants.ts` (or via an
-`EXPO_PUBLIC_API_URL` env var if you've wired one up):
+Create a `.env` file in the project root using the keys provided in the
+`.env-sample` file, then fill in your values:
 
-```ts
-export const API_BASE_URL = "http://localhost:8000";
-```
-
-> On a physical device, `localhost` won't reach your machine — use your
-> computer's LAN IP (e.g. `http://192.168.1.10:8000`).
 
 ### 3. Run
 
