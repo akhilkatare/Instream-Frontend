@@ -135,15 +135,20 @@ npx expo start -c
 npx expo start          # Start the dev server
 npx expo start -c       # Start with a cleared cache
 npx expo run:ios        # Build & run the iOS dev client
+npx expo run:android    # Build & run the Android dev client
 ```
 
 ## Screen Shots
-<img width="500" height="1000" alt="7" src="https://github.com/user-attachments/assets/c3e89626-340f-4f13-91ad-07aae369d11e" />
-<img width="500" height="1000" alt="6" src="https://github.com/user-attachments/assets/841c13f8-bca4-41f5-b4cc-e615236d04ed" />
-<img width="500" height="1000" alt="5" src="https://github.com/user-attachments/assets/87159ef2-5e46-46d6-bd55-41f25e417b36" />
-<img width="500" height="1000" alt="4" src="https://github.com/user-attachments/assets/6795bcb4-e044-45ed-ab06-19b0a1637913" />
-<img width="500" height="1000" alt="3" src="https://github.com/user-attachments/assets/0d0a6feb-d409-4995-81a9-50d5cc190908" />
-<img width="500" height="1000" alt="2" src="https://github.com/user-attachments/assets/c5d4a157-b111-4622-9280-c4f1811f89a6" />
 <img width="500" height="1000" alt="1" src="https://github.com/user-attachments/assets/b200f885-642d-485b-aae0-a0043b1d8665" />
-npx expo run:android    # Build & run the Android dev client
-```
+
+<img width="500" height="1000" alt="2" src="https://github.com/user-attachments/assets/c5d4a157-b111-4622-9280-c4f1811f89a6" />
+
+<img width="500" height="1000" alt="3" src="https://github.com/user-attachments/assets/0d0a6feb-d409-4995-81a9-50d5cc190908" />
+
+<img width="500" height="1000" alt="4" src="https://github.com/user-attachments/assets/6795bcb4-e044-45ed-ab06-19b0a1637913" />
+
+<img width="500" height="1000" alt="5" src="https://github.com/user-attachments/assets/87159ef2-5e46-46d6-bd55-41f25e417b36" />
+
+<img width="500" height="1000" alt="6" src="https://github.com/user-attachments/assets/841c13f8-bca4-41f5-b4cc-e615236d04ed" />
+
+<img width="500" height="1000" alt="7" src="https://github.com/user-attachments/assets/c3e89626-340f-4f13-91ad-07aae369d11e" />
